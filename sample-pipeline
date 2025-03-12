@@ -3,7 +3,7 @@ agent { label 'my-first-slave-server'}
 stages{
 stage('testing'){
 steps{
- echo "Test state"
+ echo "state karnataka"
  }
  }
  }
