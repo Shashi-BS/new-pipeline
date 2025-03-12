@@ -1,0 +1,10 @@
+pipeline{
+agent { label 'my-first-slave-server'}
+stages{
+stage('testing'){
+steps{
+ echo "Testing state"
+ }
+ }
+ }
+ }
